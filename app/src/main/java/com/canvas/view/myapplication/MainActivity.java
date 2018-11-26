@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         LinearLayout layout = new LinearLayout(this);
         //  layout.addView(canvasView);
-
         RelativeLayout.LayoutParams params = null;
         RecyclerView swimLaneRecyclerView = new RecyclerView(this);
         params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);

@@ -84,7 +84,6 @@ public class SimpleDrawingView  extends View {
 
         switch (mDisplayType) {
             case RECTANGLE: {
-
                 // draw poster image
                 mBitmap = getRoundedCornerBitmap(downloadBitmap, Color.WHITE, mRectRadius, mRectRadius, context);
                 canvas.drawBitmap(mBitmap, mStrokeWidth, mStrokeWidth, null);
