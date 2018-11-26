@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         swimLaneRecyclerView.setLayoutManager(mScrollerManager);
 
 
+
+
         List<String> urlList = new ArrayList<String>();
         for (int i = 100; i > 1; i--) {
             urlList.add("http://cdn-poster-bgllabs.vsscloud.in/VOD/2_3/shrek.jpg");
