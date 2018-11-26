@@ -38,7 +38,6 @@ public class kidsEventScrollerAdapter extends RecyclerView.Adapter<kidsEventScro
        // view.setLayoutParams(params);
 
         
-
         int mBarderWidth = 10;
         int mShadeWidth = 10;
 
